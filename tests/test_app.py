@@ -1,4 +1,3 @@
-
 from app import app, greet
 
 
@@ -16,4 +15,3 @@ def test_healthz():
 def test_version_default():
     client = app.test_client()
     assert client.get("/version").get_json()["version"] == "dev"
-    

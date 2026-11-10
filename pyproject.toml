@@ -1,0 +1,13 @@
+
+[project]
+name = "ci-cd-practice"
+version = "0.1.0"
+description = "CI/CD practice project"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
